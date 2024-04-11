@@ -6,10 +6,10 @@ int main() {
     scanf("%d", &n);
 
     if (n % 2 == 0) {
-        printf("O número é par");
+        printf("O número %d é par", n);
         return 0;
     }
-    printf("O número é impar");
+    printf("O número %d é impar", n);
 
     return 0;
 }
