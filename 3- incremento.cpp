@@ -7,6 +7,8 @@ int main() {
     int Z = 7;
 
     Z = ++V;
+    // V + 1;
+    // Z = V;
     printf("V: %d\n", V);
     printf("Z: %d\n", Z);
 
@@ -17,6 +19,8 @@ int main() {
     Z = 7;
 
     Z = V++;
+    // Z = V;
+    // V + 1;
     printf("V: %d\n", V);
     printf("Z: %d\n", Z);
 
