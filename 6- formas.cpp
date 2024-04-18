@@ -60,7 +60,7 @@ void exibirLosango() {
 void exibirCirculo() {
     int cont = 0;
     for (int i = 0; i <= linhas * 4; i++) {
-        if (cont == 4 +  linhas - i / 10) {
+        if (cont == 4) {
             for (int j = linhas * 4 - i; j >= 0; j--) {
                 if (j % 2 == 0) {
                     printf(" ");
