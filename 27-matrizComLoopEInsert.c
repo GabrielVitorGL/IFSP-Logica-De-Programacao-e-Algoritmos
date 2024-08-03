@@ -5,7 +5,7 @@ int main() {
 
     for (int i=0; i<4; i++){
         for (int j=0; j<4; j++){
-            printf("Digite o valor da linha %d, coluna %d: ", i+1, j+1);
+            printf("Digite o valor da posicao [%d, %d]: ", i, j);
             scanf("%d", &matriz[i][j]);
         }
     }
