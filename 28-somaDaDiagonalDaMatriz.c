@@ -1,24 +1,23 @@
 #include <stdio.h>
-#define tamanho 3
+#define TAMANHO 3
 
 int main() {
-    int matriz[tamanho][tamanho];
+    int matriz[TAMANHO][TAMANHO];
     int somaDiagonal;
 
-    for (int i=0; i<tamanho; i++){
-        for (int j=0; j<tamanho; j++){
+    for (int i = 0; i < TAMANHO; i++){
+        for (int j = 0; j < TAMANHO; j++){
             printf("Digite o valor da posicao [%d, %d]: ", i, j);
             scanf("%d", &matriz[i][j]);
         }
     }
 
     printf("A matriz ficou: \n");
-    for (int i=0; i<tamanho; i++){
-        for (int j=0; j<tamanho; j++){
+    for (int i = 0; i < TAMANHO; i++){
+        for (int j = 0; j < TAMANHO; j++){
             printf("%d ", matriz[i][j]);
-            if (i == j) {
-                  somaDiagonal += matriz[i][j];
-            }
+            if (i == j)
+                somaDiagonal += matriz[i][j];
         }
         printf("\n");
     }
